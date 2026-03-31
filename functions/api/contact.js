@@ -22,7 +22,7 @@ export async function onRequestPost(context) {
     },
     body: JSON.stringify({
       from: 'portfolio@rummanriyaz.com',
-      to: 'rumman@formaai.com.au',
+      to: 'rummanriyaz@formaai.co',
       subject: `Portfolio contact from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\n\n${message}`,
     }),

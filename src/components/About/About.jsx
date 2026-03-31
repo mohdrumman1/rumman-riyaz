@@ -8,7 +8,7 @@ const QUICK_FACTS = [
   { icon: '✅', label: 'Availability', value: 'Open to opportunities' },
 ]
 
-const CLIENTS = ['Service Stream', 'South East Water', 'Hunter Water', 'Greater Western Water']
+const CLIENTS = ['Service Stream', 'South East Water', 'Hunter Water', 'Greater Western Water', 'NBN']
 
 export default function About() {
   const ref = useIntersectionObserver()
@@ -22,13 +22,13 @@ export default function About() {
             <h2 className="about-heading">Engineer by trade.<br />Builder by habit.</h2>
             <div className="about-bio">
               <p>
-                I joined Service Stream in early 2023 as a junior developer and grew quickly into a Technical PM role — writing TRPs, running Agile ceremonies, and bridging the gap between what the business wants and what engineering can actually ship.
+                I joined Service Stream in early 2022 as a junior developer and grew quickly into a Technical PM role, writing TRPs, running Agile ceremonies, and bridging the gap between what the business wants and what engineering can actually ship.
               </p>
               <p>
                 I got PMP certified while working full-time, which pushed me to apply proper delivery frameworks to the projects I was already managing. It changed how I scope, plan, and communicate risk.
               </p>
               <p>
-                Forma AI started because I kept watching small business owners lose leads to missed calls and slow follow-up. I built the tools I wished existed — voice agents, AI receptionists, automated lead nurture — and started selling them to Australian SMBs.
+                Forma AI started because I kept watching small business owners lose leads to missed calls and slow follow-up. I built the tools I wished existed: voice agents, AI receptionists, automated lead nurture, and started selling them to small businesses around the world.
               </p>
               <p>
                 I work fully remote from Newcastle. Outside of work you'll find me on a soccer pitch two or three times a week.

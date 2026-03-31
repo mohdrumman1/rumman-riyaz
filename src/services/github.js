@@ -1,6 +1,6 @@
 // Fetches the latest updated public repos for a user.
 //
-// NOTE: GitHub REST API does not expose "pinned" repos — that requires
+// NOTE: GitHub REST API does not expose "pinned" repos; that requires
 // the GraphQL API with authentication. To switch to pinned repos later:
 // 1. Create a GitHub personal access token (public_repo scope only)
 // 2. POST to https://api.github.com/graphql with the query:

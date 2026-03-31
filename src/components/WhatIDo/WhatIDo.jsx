@@ -41,7 +41,7 @@ const CARDS = [
       </svg>
     ),
     title: 'AI Automation (Forma AI)',
-    body: 'Building voice agents, AI receptionists, and lead nurture automations for Australian SMBs. Founder of Forma AI — helping small businesses compete with enterprise tools.',
+    body: 'Building voice agents, AI receptionists, and lead nurture automations for small businesses. Founder of Forma AI, helping businesses worldwide compete with enterprise-grade tools.',
   },
 ]
 

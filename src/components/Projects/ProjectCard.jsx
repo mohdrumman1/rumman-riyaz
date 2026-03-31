@@ -44,7 +44,7 @@ export default function ProjectCard({ project }) {
       <p className="project-card-long">{longDescription}</p>
 
       {status === 'professional' && (
-        <p className="project-card-confidential">Professional project — client confidential</p>
+        <p className="project-card-confidential">Professional project: client confidential</p>
       )}
 
       <div className="project-card-tags">

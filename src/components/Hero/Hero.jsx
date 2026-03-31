@@ -11,8 +11,8 @@ export default function Hero() {
           and ship AI products.
         </h1>
         <p className="hero-subtext">
-          PMP-certified engineer at Service Stream. Founder of Forma AI —<br />
-          an AI automation agency for Australian SMBs.<br />
+          PMP-certified engineer at Service Stream. Founder of Forma AI,<br />
+          an AI automation agency for small businesses.<br />
           Based in Newcastle, NSW.
         </p>
         <div className="hero-ctas">

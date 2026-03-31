@@ -1,0 +1,131 @@
+.formaai {
+  padding: 7rem 0;
+  background: linear-gradient(135deg, #0f0b1e 0%, #13103a 50%, #0f0b1e 100%);
+  border-top: 1px solid rgba(124, 109, 250, 0.2);
+  border-bottom: 1px solid rgba(124, 109, 250, 0.2);
+}
+
+.formaai-inner {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 4rem;
+  align-items: center;
+}
+
+.formaai-label {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-accent-light);
+  margin-bottom: 0.75rem;
+  padding: 0.3rem 0.7rem;
+  border: 1px solid rgba(124, 109, 250, 0.3);
+  border-radius: 4px;
+  background: rgba(124, 109, 250, 0.08);
+}
+
+.formaai-heading {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #fff;
+  margin-bottom: 0.4rem;
+  background: linear-gradient(135deg, #fff 0%, var(--color-accent-light) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.formaai-subheading {
+  font-size: 1.1rem;
+  color: var(--color-accent-light);
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.formaai-body {
+  font-size: 0.95rem;
+  color: rgba(240, 240, 245, 0.7);
+  line-height: 1.75;
+  margin-bottom: 2rem;
+  max-width: 480px;
+}
+
+.formaai-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.75rem;
+  background: var(--color-accent);
+  color: #fff;
+  border-radius: var(--radius);
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all var(--transition);
+  font-family: var(--font-sans);
+}
+
+.formaai-cta:hover {
+  background: var(--color-accent-light);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(124, 109, 250, 0.4);
+}
+
+/* Stats grid */
+.formaai-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.formaai-stat {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(124, 109, 250, 0.2);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  transition: background var(--transition), border-color var(--transition);
+}
+
+.formaai-stat:hover {
+  background: rgba(124, 109, 250, 0.08);
+  border-color: rgba(124, 109, 250, 0.4);
+}
+
+.formaai-stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-accent-light);
+}
+
+.formaai-stat-label {
+  font-size: 0.78rem;
+  color: rgba(240, 240, 245, 0.5);
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+@media (max-width: 1099px) {
+  .formaai-inner {
+    grid-template-columns: 1fr 300px;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .formaai {
+    padding: 5rem 0;
+  }
+  .formaai-inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+  .formaai-heading {
+    font-size: 2.2rem;
+  }
+}

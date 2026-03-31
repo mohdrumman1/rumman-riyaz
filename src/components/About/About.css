@@ -1,0 +1,142 @@
+.about {
+  padding: 7rem 0;
+  background: var(--color-surface);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 380px;
+  gap: 4rem;
+  align-items: start;
+}
+
+.about-heading {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.75rem;
+}
+
+.about-bio {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--color-text-secondary);
+  font-size: 0.975rem;
+  line-height: 1.75;
+}
+
+/* Right column */
+.about-right {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-photo-wrap {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  aspect-ratio: 4/3;
+  background: var(--color-surface-2);
+}
+
+.about-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+}
+
+.about-facts {
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.about-fact {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.about-fact-icon {
+  font-size: 1rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-accent-dim);
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.about-fact-label {
+  display: block;
+  font-size: 0.72rem;
+  font-family: var(--font-mono);
+  color: var(--color-text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.about-fact-value {
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--color-text-primary);
+}
+
+.about-clients {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.about-client-badge {
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 0.78rem;
+  color: var(--color-text-secondary);
+  background: var(--color-surface-2);
+  transition: border-color var(--transition), color var(--transition);
+}
+
+.about-client-badge:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent-light);
+}
+
+@media (max-width: 1099px) {
+  .about-grid {
+    grid-template-columns: 1fr 320px;
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .about {
+    padding: 5rem 0;
+  }
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  .about-heading {
+    font-size: 1.75rem;
+  }
+  .about-right {
+    order: -1;
+  }
+  .about-photo-wrap {
+    aspect-ratio: 16/9;
+    max-height: 240px;
+  }
+}

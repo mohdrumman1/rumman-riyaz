@@ -41,7 +41,7 @@ const CARDS = [
       </svg>
     ),
     title: 'AI Automation (Forma AI)',
-    body: 'Building voice agents, AI receptionists, and lead nurture automations for small businesses. Founder of Forma AI, helping businesses worldwide compete with enterprise-grade tools.',
+    body: 'Claude API, n8n, ElevenLabs, Deepgram. Voice agents that answer, qualify, and follow up leads 24/7 — no human in the loop. Deployed for trades businesses, clinics, and service providers worldwide.',
   },
 ]
 
@@ -53,7 +53,7 @@ export default function WhatIDo() {
       <div className="section-container">
         <div className="animate-in" ref={ref}>
           <span className="section-label">What I do</span>
-          <h2 className="whatido-heading">Three things I do well</h2>
+          <h2 className="whatido-heading">What I do well</h2>
           <div className="whatido-cards">
             {CARDS.map(card => (
               <WhatIDoCard key={card.title} {...card} />

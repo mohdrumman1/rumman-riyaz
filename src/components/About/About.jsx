@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { useIntersectionObserver } from '../../hooks/useIntersectionObserver'
 import './About.css'
 
@@ -12,6 +13,7 @@ const CLIENTS = ['Service Stream', 'South East Water', 'Hunter Water', 'Greater 
 
 export default function About() {
   const ref = useIntersectionObserver()
+  const [photoError, setPhotoError] = useState(false)
 
   return (
     <section id="about" className="about">
@@ -38,12 +40,16 @@ export default function About() {
 
           <div className="about-right">
             <div className="about-photo-wrap">
-              <img
-                src="/profile.jpg"
-                alt="Rumman Riyaz"
-                className="about-photo"
-                onError={e => { e.target.style.display = 'none' }}
-              />
+              {photoError ? (
+                <div className="about-photo-fallback" aria-label="Rumman Riyaz">RR</div>
+              ) : (
+                <img
+                  src="/profile.jpg"
+                  alt="Rumman Riyaz"
+                  className="about-photo"
+                  onError={() => setPhotoError(true)}
+                />
+              )}
             </div>
             <div className="about-facts">
               {QUICK_FACTS.map(fact => (

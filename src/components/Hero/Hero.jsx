@@ -16,6 +16,9 @@ export default function Hero() {
         </p>
         <div className="hero-ctas">
           <a href="#projects" className="btn btn-primary">See my work ↓</a>
+          <a href="/resume.pdf" download="Rumman_Riyaz_Resume.pdf" className="btn btn-outline">
+            Download CV ↓
+          </a>
           <a href="https://formaai.com.au" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
             Forma AI →
           </a>

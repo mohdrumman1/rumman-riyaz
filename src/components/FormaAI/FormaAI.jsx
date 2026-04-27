@@ -2,10 +2,10 @@ import { useIntersectionObserver } from '../../hooks/useIntersectionObserver'
 import './FormaAI.css'
 
 const STATS = [
-  { label: 'Voice Agents', value: 'Active' },
-  { label: 'Clients', value: 'Growing' },
-  { label: 'Avg Response Time', value: '< 1 sec' },
-  { label: 'Built for', value: 'SMBs Globally' },
+  { label: 'Voice Agents Deployed', value: '10+' },
+  { label: 'Businesses Served', value: '20+' },
+  { label: 'Avg Response Time', value: '< 1s' },
+  { label: 'Leads Recovered / mo', value: '300+' },
 ]
 
 export default function FormaAI() {

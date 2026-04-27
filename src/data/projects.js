@@ -31,7 +31,7 @@ export const projects = [
     category: 'ai',
     tags: ['Next.js', 'Tailwind', 'Prisma', 'Recharts', 'AI'],
     liveUrl: 'https://monyze.vercel.app/',
-    repoUrl: null,
+    repoUrl: 'https://github.com/mohdrumman1/finance-tracker',
     status: 'live',
     highlight: false,
   },
@@ -69,7 +69,7 @@ export const projects = [
     liveUrl: null,
     repoUrl: null,
     status: 'professional',
-    highlight: true,
+    highlight: false,
   },
   {
     id: 'omma-claims',

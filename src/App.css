@@ -23,6 +23,76 @@
   --transition: 0.2s ease;
 }
 
+/* ============================================================
+   STAR CANVAS (fixed, full-page parallax background)
+   ============================================================ */
+
+.star-canvas-bg {
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.star-layer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: transparent;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.star-layer-after {
+  position: absolute;
+  left: 0;
+  background: transparent;
+}
+
+.star-layer--sm {
+  width: 1px;
+  height: 1px;
+  animation: animStar 50s linear infinite;
+}
+.star-layer--sm .star-layer-after {
+  top: 2000px;
+  width: 1px;
+  height: 1px;
+}
+
+.star-layer--md {
+  width: 2px;
+  height: 2px;
+  animation: animStar 100s linear infinite;
+}
+.star-layer--md .star-layer-after {
+  top: 2000px;
+  width: 2px;
+  height: 2px;
+}
+
+.star-layer--lg {
+  width: 3px;
+  height: 3px;
+  animation: animStar 150s linear infinite;
+}
+.star-layer--lg .star-layer-after {
+  top: 2000px;
+  width: 3px;
+  height: 3px;
+}
+
+@keyframes animStar {
+  from { transform: translateY(0px); }
+  to   { transform: translateY(-2000px); }
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;

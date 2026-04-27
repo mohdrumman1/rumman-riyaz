@@ -1,6 +1,6 @@
 .timeline {
   padding: 7rem 0;
-  background: var(--color-bg);
+  background: transparent;
 }
 
 .timeline-heading {

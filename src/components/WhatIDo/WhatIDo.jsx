@@ -41,7 +41,7 @@ const CARDS = [
       </svg>
     ),
     title: 'AI Automation (Forma AI)',
-    body: 'Claude API, n8n, ElevenLabs, Deepgram. Voice agents that answer, qualify, and follow up leads 24/7 — no human in the loop. Deployed for trades businesses, clinics, and service providers worldwide.',
+    body: 'Claude API, n8n, ElevenLabs, Deepgram. Voice agents that answer, qualify, and follow up leads 24/7, no human in the loop. Deployed for trades businesses, clinics, and service providers worldwide.',
   },
 ]
 

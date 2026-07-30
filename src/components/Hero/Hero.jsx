@@ -15,7 +15,7 @@ export default function Hero() {
           Based in Newcastle, NSW.
         </p>
         <div className="hero-ctas">
-          <a href="#about" className="btn btn-primary">Learn more ↓</a>
+          <a href="#projects" className="btn btn-primary">View projects ↓</a>
           <a href="/resume.pdf" download="Rumman_Riyaz_Resume.pdf" className="btn btn-outline">
             Download CV ↓
           </a>

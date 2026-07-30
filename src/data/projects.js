@@ -15,7 +15,7 @@ export const projects = [
     id: 'llm-eval-dashboard',
     title: 'LLM Evaluation & Prompt Testing Dashboard',
     description: 'Zero-cost static tool comparing LLM prompt versions across correctness, cost, latency, and consistency.',
-    longDescription: 'A static evaluation harness for LLM prompts. Runs deterministic metric logic over pre-generated model outputs, so it deploys to GitHub Pages with no backend, no API keys, and no runtime cost. Compares three prompt versions per tool (Sprint Planner, Business Audit, Client Intake) across seven metrics — valid JSON rate, acceptance-criteria completeness, hallucination rate, story duplication, output consistency, cost, latency — plus a weighted composite. Every metric shows its formula, and both the composite and its components are surfaced so the tool never hides tradeoffs. Built to demonstrate prompt-selection judgment, not just LLM calls.',
+    longDescription: 'A static evaluation harness for LLM prompts. Runs deterministic metric logic over pre-generated model outputs, so it deploys to GitHub Pages with no backend, no API keys, and no runtime cost. Compares three prompt versions per tool (Sprint Planner, Business Audit, Client Intake) across seven metrics: valid JSON rate, acceptance-criteria completeness, hallucination rate, story duplication, output consistency, cost, latency, plus a weighted composite. Every metric shows its formula, and both the composite and its components are surfaced so the tool never hides tradeoffs. Built to demonstrate prompt-selection judgment, not just LLM calls.',
     category: 'pm',
     tags: ['HTML', 'Vanilla JS', 'CSS', 'LLM Evaluation', 'Static Site', 'GitHub Pages'],
     liveUrl: 'https://mohdrumman1.github.io/llm-eval-dashboard/',

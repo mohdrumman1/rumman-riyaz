@@ -6,13 +6,11 @@ export default function Hero() {
       <div className="hero-content">
         <span className="hero-label">Software Engineer · Technical PM · AI Founder</span>
         <h1 className="hero-heading">
-          I build software<br />
-          and ship AI products.
+          Rumman Riyaz.<br />
+          Production engineering, site reliability.
         </h1>
         <p className="hero-subtext">
-          PMP-certified engineer at Service Stream. Founder of Forma AI,<br />
-          an AI automation agency for small businesses.<br />
-          Based in Newcastle, NSW.
+          A mix of production AWS systems, CI/CD, and AI automation projects.
         </p>
         <div className="hero-ctas">
           <a href="#projects" className="btn btn-primary">View projects ↓</a>
